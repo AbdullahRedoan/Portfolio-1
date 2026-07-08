@@ -1,8 +1,8 @@
 body {
   margin: 0 auto;
   padding: 0;
-  background-color: black;
-  color: white;
+  background-color: rgb(9, 9, 9);
+  color: #cbea06;
 }
 .container {
   width: 100%;
@@ -59,36 +59,52 @@ i {
 #hero {
   width: 100%;
   height: 100vh;
-  /* display: flex; */
+  margin: 0 0px 0 50px;
 }
 #abdullah-container-root {
   position: relative;
 }
 #abdullah-container {
   position: absolute;
-  top: 0;
-  left: 300px;
+  top: 130px;
+  left: 143px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin: 0px;
 }
+
 #imspan {
-  margin-bottom: -50px;
-  font-family: "Six Caps", sans-serif;
+  position: relative;
+  top: 20px;
+  left: 30px;
+  margin-bottom: 0px;
+  font-family: "exo", sans-serif;
   font-size: 3rem;
   font-weight: 200;
 }
 #abdullah {
-  margin: 0;
-  font-family: "Impact", sans-serif;
-  font-size: 15rem;
-  color:transparent;
-    -webkit-text-stroke: .5px white;
+  margin: 0px;
+  font-family: "exo", sans-serif;
+  letter-spacing: 0px;
+  font-size: 9rem;
+  /* color:white; */
+}
+#abdullah-outline {
+  position: absolute;
+  z-index: 3;
+  top: 13px;
+  color: transparent !important;
+  -webkit-text-stroke: 2px #cbea06;
+  margin: 52px 0;
+  font-family: "exo", sans-serif;
+  letter-spacing: 0px;
+  font-size: 9rem;
+  color:white;
 }
 #hero-image-container {
   width: 100%;
-  height: 100vh;
+  height: 75vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,22 +118,32 @@ i {
   object-position: center;
 }
 #redoan-container {
-  border: 2px solid white;
   position: relative;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   width: 100%;
-  margin-top: -300px;
+  margin-top: -320px;
 }
 
+
 #redoan {
-  border: 2px solid red;
   position: absolute;
   z-index: 1;
-  top: -10px;
-  right: 100px;
+  top: 80px;
+  right: 290px;
   margin: 0;
-  font-family: "Uncial Antiqua", sans-serif;
-  font-size: 8rem;
+  font-family: "exo", sans-serif;
+  font-size: 9rem;
+}
+#redoan-outline {
+  position: absolute;
+  z-index: 3;
+  top: 80px;
+  right: 290px;
+  margin: 0;
+  font-family: "exo", sans-serif;
+  font-size: 9rem;
+  color: transparent !important;
+  -webkit-text-stroke: 2px #cbea06;
 }
