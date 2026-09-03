@@ -1,8 +1,6 @@
-# 🚀 DevConf 2026
+# 🚀 Portfolio
 
 > ⚠️ **Disclaimer:** This project was created **for practice and learning purposes only**. It is a frontend mockup designed to practice HTML5 and CSS3 fundamentals.
-
-DevConf 2026 is a responsive practice web layout modeled around a developer conference. It showcases key event details including conference schedules, speaker profiles, and session information within a clean, structured design.
 
 ---
 
